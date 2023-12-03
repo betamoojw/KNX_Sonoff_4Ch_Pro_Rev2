@@ -1,5 +1,5 @@
 # KNX_IP_WiFi Product Research：
-  NX_IP --> standardized KNX multicast or tunneling protocol 
+  KNX_IP --> standardized KNX multicast or tunneling protocol 
 Pros:
   1. Still ETS programmable configuration support;
   2. Still very stable as KNX_TP products;
