@@ -30,7 +30,7 @@ How to Generate the .knxprod file:
 - KNXprodEditor (https://github.com/knxprodeditor/KNXprodEditor)
 - SignKnxProd (https://github.com/KARDUINO/SignKnxProd)
 - multiply-channels (https://github.com/mumpf/multiply-channels)
-- OpenKNXproducer (https://github.com/OpenKNX/OpenKNXproducer)
+- *OpenKNXproducer (https://github.com/OpenKNX/OpenKNXproducer)
 
 # Hardware 
 - Sonoff 4Ch Pro Rev2
