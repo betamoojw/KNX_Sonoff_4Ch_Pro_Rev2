@@ -1,0 +1,373 @@
+ESP8266 Info.
+****************************************
+WiFi MAC: 40:F5:20:06:32:6A
+Chip ID as a 32-bit integer:    0006326A
+                                        Flash chip ID as a 32-bit integer:              00164020
+                                                                                                Flash chip frequen
+
+                                                                                                                  2720 (bytes)
+            *wm:AutoConnect
+*wm:[ERROR] hostname: set failed!
+*wm:Connecting to SAVED AP: MTech
+*wm:connectTimeout not set, ESP waitForConnectResult...
+*wm:AutoConnect: SUCCESS
+*wm:STA IP Address: 192.168.2.101
+*wm:Starting Web Portal
+readMemory
+RESTORED 00 01 00 FA 00 00 00 00 00 00 00 03 12 01 00 01 04 00 01 60 00 01 00 00 00 00 00 00 00 01 00 00 00 01 04 00 00 00 00 00 00 00 00 00 00 FA 00 01 0B 01 00 00 00 00 00 00 00 00 00 00 01 00 00 00 1A 00 00 00 9C 00 1C 01 00
+restoring data from flash...
+saverestores 3
+-12
+.
+-28
+.
+-84
+.
+restored saveRestores
+tableObjs 4
+-84
+.
+-100
+.
+-111
+.
+-122
+.
+restored Tableobjects
+Device is Configured!
+setup multicast addr: 224.0.23.12 port: 3671 ip: 192.168.2.101
+                                                              result 1
+                                                                      Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+progmode on
+Basic restart requested
+save saveRestores 3
+save tableobjs 4
+▒estart
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x4010f000, len 3424, room 16
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8
+tail 0
+chksum 0x2b
+csum 0x2b
+v000700a0
+~ld
+▒▒▒p▒o▒{▒▒N|▒
+l
+▒l`"▒
+▒|s▒d▒n▒
+▒N▒
+l`▒▒{▒p▒▒l2▒
+▒
+ESP8266 Info.
+****************************************
+WiFi MAC: 40:F5:20:06:32:6A
+Chip ID as a 32-bit integer:    0006326A
+                                        Flash chip ID as a 32-bit integer:              00164020
+                                                                                                Flash chip frequen
+
+                                                                                                                  2720 (bytes)
+            *wm:AutoConnect
+*wm:[ERROR] hostname: set failed!
+*wm:Connecting to SAVED AP: MTech
+*wm:connectTimeout not set, ESP waitForConnectResult...
+*wm:AutoConnect: SUCCESS
+*wm:STA IP Address: 192.168.2.101
+*wm:Starting Web Portal
+readMemory
+RESTORED 00 01 00 FA 00 00 00 00 00 00 00 03 12 02 00 01 06 00 01 60 00 01 00 00 00 00 00 00 00 01 00 00 00 01 04 00 00 00 00 00 00 00 00 00 00 FA 00 01 0B 01 00 00 00 00 00 00 00 00 00 00 01 00 00 00 1A 00 00 00 9C 00 1C 01 00
+restoring data from flash...
+saverestores 3
+-12
+.
+-28
+.
+-84
+.
+restored saveRestores
+tableObjs 4
+-84
+.
+-100
+.
+-111
+.
+-122
+.
+restored Tableobjects
+Device is Configured!
+setup multicast addr: 224.0.23.12 port: 3671 ip: 192.168.2.101
+                                                              result 1
+                                                                      Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+Stack smashing detected.
+
+Exception (5):
+epc1=0x4010027e epc2=0x00000000 epc3=0x00000000 excvaddr=0x00000000 depc=0x00000000
+
+>>>stack>>>
+
+ctx: cont
+sp: 3fffff90 end: 3fffffc0 offset: 0000
+3fffff90:  3fffdad0 00000000 3fffdab0 4010027e
+3fffffa0:  3fffdad0 00000000 3fffdab0 4021ed18
+3fffffb0:  feefeffe feefeffe feefeffe 401012b1
+<<<stack<<<
+
+--------------- CUT HERE FOR EXCEPTION DECODER ---------------
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x4010f000, len 3424, room 16
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8
+tail 0
+chksum 0x2b
+csum 0x2b
+v000700a0
+~ld
+▒▒▒o▒▒r▒▒n|▒l
+▒
+l #▒
+▒|r▒$▒n▒
+▒n▒l`▒▒{▒$▒l▒
+▒
+ESP8266 Info.
+****************************************
+WiFi MAC: 40:F5:20:06:32:6A
+Chip ID as a 32-bit integer:    0006326A
+                                        Flash chip ID as a 32-bit integer:              00164020
+                                                                                                Flash chip frequen
+
+                                                                                                                  2720 (bytes)
+            *wm:AutoConnect
+*wm:[ERROR] hostname: set failed!
+*wm:Connecting to SAVED AP: MTech
+*wm:connectTimeout not set, ESP waitForConnectResult...
+*wm:AutoConnect: SUCCESS
+*wm:STA IP Address: 192.168.2.101
+*wm:Starting Web Portal
+readMemory
+RESTORED 00 01 00 FA 00 00 00 00 00 00 00 03 12 02 00 01 06 00 01 60 00 01 00 00 00 00 00 00 00 01 00 00 00 01 04 00 00 00 00 00 00 00 00 00 00 FA 00 01 0B 01 00 00 00 00 00 00 00 00 00 00 01 00 00 00 1A 00 00 00 9C 00 1C 01 00
+restoring data from flash...
+saverestores 3
+-12
+.
+-28
+.
+-84
+.
+restored saveRestores
+tableObjs 4
+-84
+.
+-100
+.
+-111
+.
+-122
+.
+restored Tableobjects
+Device is Configured!
+setup multicast addr: 224.0.23.12 port: 3671 ip: 192.168.2.101
+                                                              result 1
+                                                                      Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Basic restart requested
+save saveRestores 3
+save tableobjs 4
+▒estart
+ ets Jan  8 2013,rst cause:2, boot mode:(3,7)
+
+load 0x4010f000, len 3424, room 16
+tail 0
+chksum 0x2e
+load 0x3fff20b8, len 40, room 8
+tail 0
+chksum 0x2b
+csum 0x2b
+v000700a0
+~ld
+▒▒▒▒n▒r▒▒o|▒
+l▒
+l #▒
+▒|{▒$▒n▒
+▒n▒d`▒▒r▒$▒l
+▒
+ESP8266 Info.
+****************************************
+WiFi MAC: 40:F5:20:06:32:6A
+Chip ID as a 32-bit integer:    0006326A
+                                        Flash chip ID as a 32-bit integer:              00164020
+                                                                                                Flash chip frequen
+
+                                                                                                                  2720 (bytes)
+            *wm:AutoConnect
+*wm:[ERROR] hostname: set failed!
+*wm:Connecting to SAVED AP: MTech
+*wm:connectTimeout not set, ESP waitForConnectResult...
+*wm:AutoConnect: SUCCESS
+*wm:STA IP Address: 192.168.2.101
+*wm:Starting Web Portal
+readMemory
+RESTORED 00 01 00 FA 00 00 00 00 00 00 00 03 12 02 00 01 06 00 01 60 00 01 00 00 00 00 00 00 00 01 00 00 00 01 04 00 00 00 00 00 00 00 00 00 00 FA 00 01 0B 01 00 00 00 00 00 00 00 00 00 00 01 00 00 00 1A 00 00 00 9C 00 1C 01 00
+restoring data from flash...
+saverestores 3
+-12
+.
+-28
+.
+-84
+.
+restored saveRestores
+tableObjs 4
+-84
+.
+-100
+.
+-111
+.
+-122
+.
+restored Tableobjects
+Device is Configured!
+setup multicast addr: 224.0.23.12 port: 3671 ip: 192.168.2.101
+                                                              result 1
+                                                                      Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChB Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChB Switch
+group Obj ChC Switch
+group Obj ChD Switch
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+group Obj ChB Switch
+group Obj ChC Switch
+group Obj ChD Switch
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChB Switch
+group Obj ChC Switch
+group Obj ChD Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+group Obj ChA Switch
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+group Obj ChC Switch
+group Obj ChD Switch
+group Obj ChA Switch
+group Obj ChC Switch
+group Obj ChD Switch
+group Obj ChB Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChD Switch
+group Obj ChC Switch
+group Obj ChA Switch
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChA Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+group Obj ChC Switch
+group Obj ChD Switch
+group Obj ChB Switch
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
+Unhandled service identifier: 20B
+sendBytesUniCast endPacket fail
